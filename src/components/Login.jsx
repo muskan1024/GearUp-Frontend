@@ -43,11 +43,13 @@ const Login = () => {
       noValidate
       className="w-full h-screen flex item-start "
     >
+      <div className=" relative w-0 sm:w-1/3 lg:w-1/2 h-full flex flex-col">
       <img
         src="images\login-bg.avif"
-        className=" object-cover relative w-full lg:relative lg:w-1/2 h-full"
+        className=" w-full h-full object-cover"
       />
-      <div className="relative w-full lg:w-1/2 h-full bg-white flex flex-col p-4 lg:p-20 justify-between items-center">
+      </div>
+      <div className="w-full lg:w-1/2 h-full bg-white flex flex-col p-4 lg:p-20 justify-between items-center">
         <img
           src="images\GearUp-gif.gif"
           height={"170px"}

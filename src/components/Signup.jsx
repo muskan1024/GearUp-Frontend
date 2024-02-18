@@ -45,18 +45,18 @@ export default function Signup() {
       noValidate
       className="w-full h-screen flex item-start"
     >
-      <div className="relative w-1/2 h-full flex flex-col">
+      <div className=" relative w-0 sm:w-1/3 lg:w-1/2 h-full flex flex-col">
         <img
           src="images\Signup-bg.avif"
-          className="w-full h-full object-cover"
+          className=" w-full h-full object-cover"
         />
       </div>
-      <div className="w-1/2 h-full bg-white flex flex-col p-16 justify-between items-center">
+      <div className="w-full lg:w-1/2 h-full bg-white flex flex-col p-12 lg:p-16 justify-between items-center">
         <img
           src="images\GearUp-gif.gif"
           height={"170px"}
           width={"200px"}
-          className="-mt-16"
+          className="-mt-16 "
         />
 
         <div className="w-full flex flex-col">
@@ -67,7 +67,7 @@ export default function Signup() {
             </p>
           </div>
 
-          <div className="grid grid-flow-cols grid-cols-2 gap-6">
+          <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="flex flex-col ">
               <label className="font-russo">Full name</label>
               <input
